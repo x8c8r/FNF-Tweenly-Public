@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left instance"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down instance"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"loop": false,
+			"name": "Up instance"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right instance"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/solgryn",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "solgryn",
+	"flip_x": false,
+	"healthbar_colors": [
+		208,
+		17,
+		9
+	],
+	"camera_position": [
+		0,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

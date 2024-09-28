@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "Mario's Madness",
+        "expandBeat" : 0,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["Xarion"],
+        "coding": ["x8c8r"],
+        "art" : ["RoboRecona, Didgie"],
+        "chart": ["Xarion, PananaBread"],
+		"basedon": ["Unfair Mario"]
+    }
+}

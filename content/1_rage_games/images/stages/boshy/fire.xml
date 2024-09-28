@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fire.png">
+<SubTexture name="fire bun0000" x="0" y="0" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0001" x="0" y="320" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0002" x="0" y="640" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0003" x="0" y="960" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0004" x="1280" y="0" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0005" x="1280" y="320" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0006" x="1280" y="640" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0007" x="1280" y="960" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0008" x="0" y="1280" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0009" x="1280" y="1280" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0010" x="0" y="1600" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0011" x="1280" y="1600" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0012" x="0" y="1920" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+<SubTexture name="fire bun0013" x="1280" y="1920" width="1280" height="320" frameX="0" frameY="0" frameWidth="1280" frameHeight="320" />
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boshy.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="20" y="41" width="20" height="17" frameX="0" frameY="-3" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="idle0001" x="0" y="41" width="20" height="18" frameX="0" frameY="-2" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="idle0002" x="0" y="22" width="19" height="19" frameX="0" frameY="-1" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singLEFT0000" x="38" y="22" width="19" height="19" frameX="2" frameY="-1" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singLEFT0001" x="19" y="22" width="19" height="19" frameX="1" frameY="-1" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singDOWN0000" x="40" y="41" width="18" height="13" frameX="0" frameY="-7" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singDOWN0001" x="58" y="19" width="18" height="14" frameX="0" frameY="-6" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singUP0000" x="0" y="0" width="19" height="22" frameX="0" frameY="2" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singUP0001" x="19" y="0" width="19" height="21" frameX="0" frameY="1" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singRIGHT0000" x="38" y="0" width="20" height="19" frameX="-2" frameY="-1" frameWidth="20" frameHeight="18"/>
+	<SubTexture name="singRIGHT0001" x="58" y="0" width="19" height="19" frameX="-1" frameY="-1" frameWidth="20" frameHeight="18"/>
+</TextureAtlas>

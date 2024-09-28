@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "I Wanna Be Him",
+        "expandBeat" : 32,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["x8c8r"],
+        "coding": ["x8c8r"],
+        "art" : ["RoboRecona", "Didgie"],
+        "chart": ["PananaBread"],
+		"basedon": ["I wanna be the Boshy"]
+    }
+}

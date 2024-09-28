@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="explosion.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="e0000" x="337" y="360" width="164" height="158" frameX="2" frameY="2" frameWidth="160" frameHeight="154"/>
+	<SubTexture name="e0001" x="171" y="360" width="166" height="164" frameX="2" frameY="2" frameWidth="162" frameHeight="160"/>
+	<SubTexture name="e0002" x="0" y="360" width="171" height="166" frameX="2" frameY="2" frameWidth="167" frameHeight="162"/>
+	<SubTexture name="e0003" x="360" y="180" width="180" height="172" frameX="2" frameY="2" frameWidth="176" frameHeight="168"/>
+	<SubTexture name="e0004" x="540" y="180" width="175" height="178" frameX="2" frameY="2" frameWidth="171" frameHeight="174"/>
+	<SubTexture name="e0005" x="360" y="0" width="180" height="180" frameX="2" frameY="2" frameWidth="176" frameHeight="176"/>
+	<SubTexture name="e0006" x="0" y="180" width="180" height="180" frameX="2" frameY="2" frameWidth="176" frameHeight="176"/>
+	<SubTexture name="e0007" x="180" y="0" width="180" height="180" frameX="2" frameY="2" frameWidth="176" frameHeight="176"/>
+	<SubTexture name="e0008" x="180" y="180" width="180" height="179" frameX="2" frameY="2" frameWidth="176" frameHeight="175"/>
+	<SubTexture name="e0009" x="0" y="0" width="180" height="180" frameX="2" frameY="2" frameWidth="176" frameHeight="176"/>
+	<SubTexture name="e0010" x="540" y="0" width="177" height="180" frameX="2" frameY="2" frameWidth="173" frameHeight="176"/>
+	<SubTexture name="e0011" x="501" y="360" width="159" height="151" frameX="2" frameY="2" frameWidth="155" frameHeight="147"/>
+	<SubTexture name="e0012" x="0" y="526" width="140" height="98" frameX="2" frameY="2" frameWidth="136" frameHeight="94"/>
+	<SubTexture name="e0013" x="140" y="526" width="116" height="71" frameX="2" frameY="2" frameWidth="112" frameHeight="67"/>
+</TextureAtlas>

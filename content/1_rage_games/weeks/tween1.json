@@ -1,0 +1,19 @@
+{
+	"songs": [
+		["Beat The Meat", "meatboy", 184,2,2],
+		["Marios Madness", "bario", 65,105,225],
+		["I Wanna Be Him", "boshy", 244,202,22],
+		["Turn Wing", "enemy", 244,202,22]
+	],
+
+	"weekBanner": "ragegames",
+
+	"storyName": "Rage Game Roundabout",
+	"weekBefore": "",
+	"weekName": "RAGE GAME ROUNDABOUT",
+	"startUnlocked": true,
+	"difficulties": "Normal",
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

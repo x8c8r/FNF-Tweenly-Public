@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mario.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="Idle instance 0" x="0" y="0" width="30" height="35"/>
+  <SubTexture name="Left instance 0" x="30" y="0" width="30" height="35"/>
+  <SubTexture name="Left instance 1" x="60" y="0" width="30" height="35"/>
+  <SubTexture name="Left instance 2" x="90" y="0" width="30" height="35"/>
+  <SubTexture name="Left instance 3" x="120" y="0" width="30" height="35"/>
+  <SubTexture name="Down instance 0" x="150" y="0" width="30" height="35"/>
+  <SubTexture name="Down instance 1" x="180" y="0" width="30" height="35"/>
+  <SubTexture name="Down instance 2" x="210" y="0" width="30" height="35"/>
+  <SubTexture name="Down instance 3" x="240" y="0" width="30" height="35"/>
+  <SubTexture name="Up instance 0" x="270" y="0" width="30" height="35"/>
+  <SubTexture name="Up instance 1" x="300" y="0" width="30" height="35"/>
+  <SubTexture name="Up instance 2" x="330" y="0" width="30" height="35"/>
+  <SubTexture name="Up instance 3" x="360" y="0" width="30" height="35"/>
+  <SubTexture name="Right instance 0" x="390" y="0" width="30" height="35"/>
+  <SubTexture name="Right instance 1" x="420" y="0" width="30" height="35"/>
+  <SubTexture name="Right instance 2" x="450" y="0" width="30" height="35"/>
+  <SubTexture name="Right instance 3" x="480" y="0" width="30" height="35"/>
+</TextureAtlas>
