@@ -43,9 +43,11 @@ class TweenlyMainMenu extends MusicBeatState {
 		if(curTween >= WeekData.weeksList.length) curTween = 1;
 
         for (twee in WeekData.weeksLoaded) {
+            trace(twee);
             loadedTweens.push(twee);
         }
         WeekData.setDirectoryFromWeek(loadedTweens[0]);
+
 
         var lay:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/menu_layout'));
         lay.antialiasing = ClientPrefs.globalAntialiasing;
@@ -91,7 +93,7 @@ class TweenlyMainMenu extends MusicBeatState {
         tweenImg = new FlxSprite(225, 200);
         add(tweenImg);
 
-        tweenmaster = new FlxSprite(958, 367);  // hes a bloody mess rn dont mind him (I put his organs and bones back together! -PoeDev)
+        tweenmaster = new FlxSprite(958, 380);  // hes a bloody mess rn dont mind him -x8 (I put his organs and bones back together! -PoeDev)
         tweenmaster.frames = Paths.getSparrowAtlas('mainmenu/tweenmaster');
 		tweenmaster.animation.addByPrefix('Tween_Idle', 'Tween_Idle', 24, false);
         tweenmaster.animation.addByPrefix('sick', 'Tween_YouPEAK', 24, false);
@@ -179,17 +181,21 @@ class TweenlyMainMenu extends MusicBeatState {
             MusicBeatState.switchState(new MasterEditorMenu());
         }
         #end
+
+        if (controls.BACK) {
+            FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = false;
+            MusicBeatState.switchState(new HubState());
+        }
     }
 
     function changeTween(del:Int) {
+        curTween += del;
+
         if (curTween > loadedTweens.length - 1)
 			curTween = 0;
 		if (curTween < 0)
 			curTween = loadedTweens.length - 1;
-
-        // Hide arrows for now we only got 1 tween
-        leftTween.visible = false;
-        rightTween.visible = false;
         
         var twene = loadedTweens[curTween];
         WeekData.setDirectoryFromWeek(twene);
@@ -208,7 +214,7 @@ class TweenlyMainMenu extends MusicBeatState {
     function genTweenInfo():String {
         var twene = loadedTweens[curTween];
         var res = "";
-        res += "(Tween " + Std.int(curTween)+1 + ")\n";
+        res += "(Tween " + Std.int(curTween+1) + ")\n";
         res += twene.storyName + ":\n";
         for (song in twene.songs) {
             res += song[0] + "\n";

@@ -1,0 +1,16 @@
+{
+	"songs": [
+		["One Custards Remaining", "tinkywinky", 91,0,176]
+	],
+
+	"weekBanner": "hallotween",
+
+	"storyName": "HalloTween",
+	"weekBefore": "",
+	"weekName": "HALLOTWEEN",
+	"startUnlocked": true,
+	"difficulties": "Normal",
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

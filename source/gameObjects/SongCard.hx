@@ -16,10 +16,11 @@ class SongCard extends FlxTypedSpriteGroup<FlxSprite>{
 
         this.meta = meta;
         tex = '"${meta.card.name}"\nSong: ${meta.credits.music.join(', ')}';
+        if (meta.credits.basedon != null) tex += '\nBased on: ${meta.credits.basedon.join(', ')}';
         if (meta.card.font != null) font = meta.card.font;
 
         text = new FlxText(x + 5, y + 5, 0, tex);
-        text.setFormat(Paths.font(font), 36, FlxColor.WHITE);
+        text.setFormat(Paths.font(font), 24, FlxColor.WHITE);
 
         var textbg:FlxSprite = new FlxSprite(x,y).makeGraphic(Std.int(text.width + 10), Std.int(text.height + 10), FlxColor.fromString("#121212"));
         

@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "One Custards Remaining",
+        "expandBeat" : 16,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["Didgie"],
+        "coding": ["x8c8r, Didgie"],
+        "art" : ["Didgie", "DededeDrip", "PananaBread"],
+        "chart": ["PananaBread"],
+		"basedon": ["Slendytubbies"]
+    }
+}

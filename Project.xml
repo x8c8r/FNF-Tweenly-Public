@@ -50,6 +50,8 @@
 	<define name="VIDEOS_ALLOWED" if="cpp" />
 	<define name="DISCORD_ALLOWED" if="cpp"/>
 
+	<!-- <define name="PRE_RELEASE"/> -->
+
 	<!-- OOPPSSS HAHA -->
 
 	<!-- <define name="EMBED_FILES"/> -->

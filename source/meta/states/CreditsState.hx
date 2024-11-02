@@ -46,7 +46,6 @@ class CreditsState extends MusicBeatState
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
-		
 
 		persistentUpdate = true;
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
@@ -86,6 +85,7 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['NIGHTMARISH FEDS'],
+			['Everyone', '', 'Unable to make the credits bg properly change colors', 'https://github.com/DuskieWhy/NightmareVision', '0xFFFFFFFF'],
 			['DuskieWhy', 'duskie', 'Main Developer', 'https://twitter.com/DuskieWhy', '6D32A8'],
 			['Data', 'data', 'Programmer', 'https://twitter.com/FixedData', '0xFFFFAF64'],
 			['NebulaZorua', 'neb', 'HScript foundation writer', 'https://twitter.com/Nebula_Zorua', 'B300B3'],
@@ -168,7 +168,8 @@ class CreditsState extends MusicBeatState
 		descBox.sprTracker = descText;
 		add(descText);
 
-		bg.color = 0xFFFFFFFF; // THIS FUCKING ENGINE SUCKS
+		// bg.color = getCurrentBGColor();
+		bg.color = 0xFFFFFFFF;
 		intendedColor = bg.color;
 		changeSelection();
 		super.create();
