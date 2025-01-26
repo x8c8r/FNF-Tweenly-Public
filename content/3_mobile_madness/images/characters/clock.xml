@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clock.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Down0000" x="0" y="0" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Down0001" x="0" y="0" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Down0002" x="219" y="0" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Down0003" x="219" y="0" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Left0000" x="409" y="0" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Left0001" x="409" y="0" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Left0002" x="628" y="0" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Left0003" x="628" y="0" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Right0000" x="0" y="196" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Right0001" x="0" y="196" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Right0002" x="219" y="196" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Right0003" x="219" y="196" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Ring0000" x="409" y="196" width="190" height="196" frameX="0" frameY="0" frameWidth="190" frameHeight="235"/>
+	<SubTexture name="Ring0001" x="409" y="196" width="190" height="196" frameX="0" frameY="0" frameWidth="190" frameHeight="235"/>
+	<SubTexture name="Ring0002" x="599" y="196" width="190" height="196" frameX="0" frameY="-39" frameWidth="190" frameHeight="235"/>
+	<SubTexture name="Ring0003" x="599" y="196" width="190" height="196" frameX="0" frameY="-39" frameWidth="190" frameHeight="235"/>
+	<SubTexture name="Up0000" x="789" y="196" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Up0001" x="789" y="196" width="219" height="173" frameX="0" frameY="-23" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Up0002" x="0" y="392" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+	<SubTexture name="Up0003" x="0" y="392" width="190" height="196" frameX="-14" frameY="0" frameWidth="219" frameHeight="196"/>
+</TextureAtlas>

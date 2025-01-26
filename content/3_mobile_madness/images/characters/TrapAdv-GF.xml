@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TrapAdv-GF.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle10000" x="0" y="1030" width="387" height="510" frameX="-50" frameY="-52" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle20000" x="1157" y="507" width="388" height="510" frameX="-49" frameY="-49" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle30000" x="1157" y="0" width="393" height="507" frameX="-44" frameY="-49" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle40000" x="0" y="0" width="390" height="514" frameX="-47" frameY="-43" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle50000" x="0" y="514" width="388" height="516" frameX="-49" frameY="-40" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle60000" x="390" y="0" width="385" height="518" frameX="-52" frameY="-37" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle70000" x="775" y="0" width="382" height="522" frameX="-55" frameY="-34" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle80000" x="775" y="0" width="382" height="522" frameX="-55" frameY="-34" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle90000" x="775" y="0" width="382" height="522" frameX="-55" frameY="-34" frameWidth="480" frameHeight="582"/>
+	<SubTexture name="idle100000" x="775" y="0" width="382" height="522" frameX="-55" frameY="-34" frameWidth="480" frameHeight="582"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "Popper",
+        "expandBeat" : 16,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["Didgie"],
+        "coding": ["Didgie"],
+        "art" : ["Didgie, PananaBread, Red Ball"],
+        "chart": ["PananaBread"],
+		"basedon": ["Red Ball 4"]
+    }
+}

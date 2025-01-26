@@ -15,6 +15,7 @@ import flixel.util.FlxTimer;
 class HubState extends MusicBeatState
 {
 	var leftState:Bool = false;
+	public static var cameFromCredits:Bool = false;
 	var player:Player;
 	
 	//var blackcover:FlxSprite;
@@ -40,8 +41,13 @@ class HubState extends MusicBeatState
 		var cloud2:FlxSprite = new FlxSprite(923, 104).loadGraphic(Paths.image('hub/cloud2'));
 		
 		//blackcover.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-		
+
 		player = new Player(570, 486);
+
+		if (cameFromCredits) {
+			cameFromCredits = false;
+			player.x = 1020;
+		}
 		
 		FlxTween.tween(cloud1, {x: 923}, 20, {ease: FlxEase.linear, type: PINGPONG});
 		FlxTween.tween(cloud2, {x: 64}, 20, {ease: FlxEase.linear, type: PINGPONG});

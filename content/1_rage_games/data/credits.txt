@@ -1,8 +1,8 @@
-RAGE GAME ROUNDABOUT
-x8c8r::xeight::Composer & Programmer of "I wanna be him"; Programming & Visuals of the Tween select; Programming for "Beat the Meat" and "Mario's Madness"::https://bsky.app/profile/xeight.bsky.social::0x00FF33CC
-DidgieDeez::didgie::Programmer & Artist of the Hub; Everything but charting on "Turn Wing"; Solgryn sprites for "I wanna be him"; Programming for "Beat the Meat"; Created the Tween logo::https://twitter.com/didgiedeez2::0x00E4D4C8
-PananaBread::panbread::Charting for "I wanna be him", "Turn Wing" & "Beat the Meat"::https://www.youtube.com/channel/UCKpemsMbyC7q4PDTpLzjrjA::0x00968983
-RoboRecona::roborecona::Boshy & Mario sprites::https://twitter.com/roborecona::0x00968983
-PoeDev::poe::Tween select art of TweenMasterXFNF; Was replaced in the middle of development.::https://twitter.com/poedev08::0x00CC0000
-Xarion::xar::Composer & charter of "Mario's Madness"::https://twitter.com/xar1on::0x00A47385
-Jo560hs::jo::Composer of "Beat the Meat"::https://www.youtube.com/channel/UCzuasKYl1dtBz6_XmjdtXQQ::0x00C9027B
+TWEEN 1 - RAGE GAME ROUNDABOUT
+x8c8r::xeight::Composer and programmer of "I wanna be him"; Programming and visuals of the Tween select; Programmer of "Beat the Meat" and "Mario's Madness"::https://bsky.app/profile/xeight.bsky.social::0xCC33FF
+DidgieDeez::didgie::Programmer and artist of the Hub; Artist, composer and programmer for "Turn Wing"; Solgryn sprites for "I wanna be him"; Programming for "Beat the Meat"; Created the Tween logo::https://twitter.com/didgiedeez2::0xFFFFFF
+PananaBread::panbread::Charter of "I wanna be him", "Turn Wing" and "Beat the Meat"::https://www.youtube.com/channel/UCKpemsMbyC7q4PDTpLzjrjA::0xFFCC00
+RoboRecona::roborecona::Boshy and Mario sprites::https://twitter.com/roborecona::0x838996
+PoeDev::poe::Tween select art of TweenMasterXFNF; Was replaced in the middle of development.::https://twitter.com/poedev08::0x0000FF
+Xarion::xar::Composer and charter of "Mario's Madness"::https://twitter.com/xar1on::0x838996
+Jo560hs::jo::Composer of "Beat the Meat"::https://www.youtube.com/channel/UCzuasKYl1dtBz6_XmjdtXQQ::0x7B02C9

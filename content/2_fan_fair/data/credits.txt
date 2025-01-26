@@ -1,6 +1,6 @@
-HALLOTWEEN
-DidgieDeez::didgie::Composer of "One Custards Remaining"; Character sprites for "One Custards Remaining"::https://twitter.com/didgiedeez2::0xFFE4D4C8
-x8c8r::xeight::Programmer of "One Custards Remaining"::https://bsky.app/profile/xeight.bsky.social::0xFFFF33CC
-DededeDrip::dedede::Background sprites for "One Custards Remaining"::https://twitter.com/DededeDrip::0xFF07B2FF
-PananaBread::panbread::Charting and icons for "One Custards Remaining"::https://www.youtube.com/channel/UCKpemsMbyC7q4PDTpLzjrjA::0xFF968983
-BeastTornado::beast::Mod logo::https://twitter.com/BeastTornadoYT::0xFFFF0000
+TWEEN 2A - HALLOTWEEN
+DidgieDeez::didgie::Composer of "One Custards Remaining"; Character sprites for "One Custards Remaining"::https://twitter.com/didgiedeez2::0xFFFFFF
+x8c8r::xeight::Programmer of "One Custards Remaining"::https://bsky.app/profile/xeight.bsky.social::0xCC33FF
+DededeDrip::dedede::Background artist of "One Custards Remaining"::https://twitter.com/DededeDrip::0xFF9900
+PananaBread::panbread::Charting and icons of "One Custards Remaining"::https://www.youtube.com/channel/UCKpemsMbyC7q4PDTpLzjrjA::0xFFCC00
+BeastTornado::beast::Creator of the updated mod logo::https://twitter.com/BeastTornadoYT::0xFF0000

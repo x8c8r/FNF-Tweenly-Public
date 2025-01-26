@@ -1,0 +1,19 @@
+{
+	"songs": [
+		["Pay-2-Win", "pixelguy", 184,2,2],
+		["Popper", "reball", 255,0,0],
+		["Trick-Pixels", "TrapAdvOp", 247,211,0],
+		["Ticker", "clock", 0, 0, 0]
+	],
+
+	"weekBanner": "mobilemadness",
+
+	"storyName": "Mobile Madness",
+	"weekBefore": "",
+	"weekName": "MOBILE MADNESS",
+	"startUnlocked": true,
+	"difficulties": "Normal",
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

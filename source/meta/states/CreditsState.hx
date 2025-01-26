@@ -85,34 +85,33 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['NIGHTMARISH FEDS'],
-			['Everyone', '', 'Unable to make the credits bg properly change colors', 'https://github.com/DuskieWhy/NightmareVision', '0xFFFFFFFF'],
-			['DuskieWhy', 'duskie', 'Main Developer', 'https://twitter.com/DuskieWhy', '6D32A8'],
-			['Data', 'data', 'Programmer', 'https://twitter.com/FixedData', '0xFFFFAF64'],
-			['NebulaZorua', 'neb', 'HScript foundation writer', 'https://twitter.com/Nebula_Zorua', 'B300B3'],
-			['PHO', 'pho', 'Programmer', 'https://twitter.com/Phomow1', '0xFF7455be'],
-			['Decoy', 'decoy', 'Programmer, Charter', 'https://www.youtube.com/watch?v=PuYZ-9zcp4w', '0xFF5833B6'],
-			['JoggingScout', 'joggingscout', 'Artist (SUPER KUTTY!!!!)', 'https://twitter.com/JoggingScout', '0xFF3366CC'],
-			['Iseta', 'iseta', 'Artist (a little less kutty...)', 'https://twitter.com/Isetaaaaa', '0xffdede0b'],
+			['DuskieWhy', 'duskie', 'Main Developer', 'https://twitter.com/DuskieWhy', '0x6D32A8'],
+			['Data', 'data', 'Programmer', 'https://twitter.com/FixedData', '0xFFAF64'],
+			['NebulaZorua', 'neb', 'HScript foundation writer', 'https://twitter.com/Nebula_Zorua', '0xB300B3'],
+			['PHO', 'pho', 'Programmer', 'https://twitter.com/Phomow1', '0x7455be'],
+			['Decoy', 'decoy', 'Programmer, Charter', 'https://www.youtube.com/watch?v=PuYZ-9zcp4w', '0x5833B6'],
+			['JoggingScout', 'joggingscout', 'Artist (SUPER KUTTY!!!!)', 'https://twitter.com/JoggingScout', '0x3366CC'],
+			['Iseta', 'iseta', 'Artist (a little less kutty...)', 'https://twitter.com/Isetaaaaa', '0xdede0b'],
 			[''],
 			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
-			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
+			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'0x444444'],
+			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'0xC30085'],
 			[''],
 			['Former Psych Members'],
-			['bb-panzu',			'bb-panzu',			'Ex-Programmer of Psych Engine',							'https://twitter.com/bbsub3',			'389A58'],
+			['bb-panzu',			'bb-panzu',			'Ex-Programmer of Psych Engine',							'https://twitter.com/bbsub3',			'0x389A58'],
 			[''],
 			['Psych Contributors'],
-			['iFlicky',				'iflicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',	'https://twitter.com/flicky_i',			'AA32FE'],
-			['SqirraRNG',			'gedehari',			'Chart Editor\'s Sound Waveform base',						'https://twitter.com/gedehari',			'FF9300'],
-			['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',								'https://twitter.com/polybiusproxy',	'FFEAA6'],
-			['Keoiki',				'keoiki',			'Note Splash Animations',									'https://twitter.com/Keoiki_',			'FFFFFF'],
-			['Smokey',				'smokey',			'Spritemap Texture Support',								'https://twitter.com/Smokey_5_',		'4D5DBD'],
+			['iFlicky',				'iflicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',	'https://twitter.com/flicky_i',			'0xAA32FE'],
+			['SqirraRNG',			'gedehari',			'Chart Editor\'s Sound Waveform base',						'https://twitter.com/gedehari',			'0xFF9300'],
+			['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',								'https://twitter.com/polybiusproxy',	'0xFFEAA6'],
+			['Keoiki',				'keoiki',			'Note Splash Animations',									'https://twitter.com/Keoiki_',			'0xFFFFFF'],
+			['Smokey',				'smokey',			'Spritemap Texture Support',								'https://twitter.com/Smokey_5_',		'0x4D5DBD'],
 			[''],
 			["Funkin' Crew"],
-			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",						'https://twitter.com/ninja_muffin99',	'F73838'],
-			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",							'https://twitter.com/PhantomArcade3K',	'FFBB1B'],
-			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",							'https://twitter.com/evilsk8r',			'53E52C'],
-			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",							'https://twitter.com/kawaisprite',		'6475F3']
+			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",						'https://twitter.com/ninja_muffin99',	'0xF73838'],
+			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",							'https://twitter.com/PhantomArcade3K',	'0xFFBB1B'],
+			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",							'https://twitter.com/evilsk8r',			'0x53E52C'],
+			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",							'https://twitter.com/kawaisprite',		'0x6475F3']
 		];
 		
 		for(i in pisspoop){
@@ -231,6 +230,7 @@ class CreditsState extends MusicBeatState
 				}
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new HubState());
+				HubState.cameFromCredits = true;
 				quitting = true;
 			}
 		}
@@ -261,26 +261,20 @@ class CreditsState extends MusicBeatState
 	function changeSelection(change:Int = 0)
 	{
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
-		do {
-			curSelected += change;
-			if (curSelected < 0)
-				curSelected = creditsStuff.length - 1;
-			if (curSelected >= creditsStuff.length)
-				curSelected = 0;
-		} while(unselectableCheck(curSelected));
+		do (curSelected = FlxMath.wrap(curSelected + change, 0, creditsStuff.length - 1))
+		while (unselectableCheck(curSelected));
 
-		// var newColor:Int =  Std.parseInt(creditsStuff[curSelected][4]);
-		// if(newColor != intendedColor) {
-		// 	if(colorTween != null) {
-		// 		colorTween.cancel();
-		// 	}
-		// 	intendedColor =newColor;
-		// 	colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
-		// 		onComplete: function(twn:FlxTween) {
-		// 			colorTween = null;
-		// 		}
-		// 	});
-		// }
+		final newColor:FlxColor = FlxColor.fromString(creditsStuff[curSelected][4]);
+		trace(newColor);
+		if (newColor != intendedColor)
+		{
+			if (colorTween != null) colorTween.cancel();
+			intendedColor = newColor;
+
+			colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {onComplete: function(twn:FlxTween) {
+				colorTween = null;
+			}});
+		}
 
 		var bullShit:Int = 0;
 

@@ -5,6 +5,7 @@ package meta.states;
 import haxe.Json;
 import meta.data.Song;
 import meta.data.WeekData;
+import gameObjects.BGSprite;
 import flixel.input.keyboard.FlxKey;
 import meta.states.editors.MasterEditorMenu;
 import flixel.addons.transition.FlxTransitionableState;
@@ -21,7 +22,6 @@ class TweenlyMainMenu extends MusicBeatState {
     var tweenInfo:FlxText;
 
     var curTween:Int;
-    var totalTweens:Int = 1;
 
     var tweenmaster:FlxSprite;
     var doTween:Bool = true;
@@ -29,22 +29,27 @@ class TweenlyMainMenu extends MusicBeatState {
     var loadedTweens:Array<WeekData> = [];
 
     override function create() {
+        Paths.clearStoredMemory();
+        Paths.clearUnusedMemory();
+
         Conductor.changeBPM(Json.parse(Paths.getTextFromFile('images/gfDanceTitle.json')).bpm); // I HATE FRIDAY NIGHT FUNKIN' AND I HATE MY FUCKING SON! UNGRATEFUL BOY! UNGRATEFUL BOY! ROTTEN BOY! ROTTEN BOY! I HATE MY SON! I. HATE. MY. SON!
         persistentUpdate = persistentDraw = true;
 		
 		DiscordClient.changePresence("Choosing the tweenings", null);
         FlxG.mouse.visible = true;
-        debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
-		
-		
+        debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));		
 
         PlayState.isStoryMode = true;
 		WeekData.reloadWeekFiles(true);
-		if(curTween >= WeekData.weeksList.length) curTween = 1;
+		// if(curTween >= WeekData.weeksList.length) curTween = 1;
 
-        for (twee in WeekData.weeksLoaded) {
-            trace(twee);
-            loadedTweens.push(twee);
+        for (twee in 0...WeekData.weeksList.length) {
+            //why the fuck do i have to do this shit
+            var weekFile:WeekFile = WeekData.getWeekFile(Paths.mods(Paths.getModDirectories()[twee]+"/weeks/"+WeekData.weeksList[twee]+".json"));
+
+            var weekData:WeekData = new WeekData(weekFile, WeekData.weeksList[twee]);
+            weekData.folder = Paths.getModDirectories()[twee];
+            loadedTweens.push(weekData); 
         }
         WeekData.setDirectoryFromWeek(loadedTweens[0]);
 
@@ -93,14 +98,13 @@ class TweenlyMainMenu extends MusicBeatState {
         tweenImg = new FlxSprite(225, 200);
         add(tweenImg);
 
-        tweenmaster = new FlxSprite(958, 380);  // hes a bloody mess rn dont mind him -x8 (I put his organs and bones back together! -PoeDev)
+        tweenmaster = new FlxSprite(958, 367);  // hes a bloody mess rn dont mind him -x8 (I put his organs and bones back together! -PoeDev)
         tweenmaster.frames = Paths.getSparrowAtlas('mainmenu/tweenmaster');
-		tweenmaster.animation.addByPrefix('Tween_Idle', 'Tween_Idle', 24, false);
-        tweenmaster.animation.addByPrefix('sick', 'Tween_YouPEAK', 24, false);
-        tweenmaster.animation.addByPrefix('good', 'Tween_YouGOOD', 24, false);
-        tweenmaster.animation.addByPrefix('bad', 'Tween_YouSUCK', 24, false);
-        tweenmaster.animation.addByPrefix('shit', 'Tween_youFUCK', 24, false);
-		tweenmaster.animation.play('Tween_Idle');
+        tweenmaster.animation.addByPrefix('Tween_Idle', 'Tween_Idle', 24, false);
+        tweenmaster.animation.addByPrefix('Tween_YouPEAK', 'Tween_YouPEAK', 24, false);
+        tweenmaster.animation.addByPrefix('Tween_YouGOOD', 'Tween_YouGOOD', 24, false);
+        tweenmaster.animation.addByPrefix('Tween_YouSUCK', 'Tween_YouSUCK', 24, false);
+        tweenmaster.animation.addByPrefix('Tween_youFUCK', 'Tween_youFUCK', 24, false);
 		tweenmaster.updateHitbox();
         add(tweenmaster);
 
@@ -116,7 +120,7 @@ class TweenlyMainMenu extends MusicBeatState {
 
     function imactuallygonnafuckingcrashoutwhythefuckdoihavetodothis() {
         if (tweenmaster != null && doTween)
-            tweenmaster.animation.play('Tween_Idle', true);            
+            tweenmaster.animation.play('Tween_Idle');
     }
 
     function mbs() {
@@ -134,9 +138,6 @@ class TweenlyMainMenu extends MusicBeatState {
 
     override function update(elapsed:Float) {
         mbs();
-        if (FlxG.keys.justPressed.G)
-            tweenmaster.animation.play('idle', true);
-
 
         for (button in buttons) {
             if (!FlxG.mouse.overlaps(button)) {
@@ -189,6 +190,11 @@ class TweenlyMainMenu extends MusicBeatState {
         }
     }
 
+    override function destroy() {
+        FlxG.mouse.visible = false;
+        super.destroy();
+    }
+    
     function changeTween(del:Int) {
         curTween += del;
 
@@ -238,7 +244,7 @@ class TweenlyMainMenu extends MusicBeatState {
         PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase(), PlayState.storyPlaylist[0].toLowerCase());
         PlayState.campaignScore = 0;
         PlayState.campaignMisses = 0;
-        tweenmaster.animation.play("good", true);
+        tweenmaster.animation.play("Tween_YouGOOD", true);
         FlxG.sound.play(Paths.sound("confirmMenu"));
         new FlxTimer().start(2, tmr -> {
             LoadingState.loadAndSwitchState(new PlayState(), true);

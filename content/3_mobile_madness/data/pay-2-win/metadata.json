@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "Pay 2 Win",
+        "expandBeat" : 32,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["BeastTornado"],
+        "coding": ["x8c8r"],
+        "art" : ["BeastTornado, PananaBread"],
+        "chart": ["PananaBread"],
+		"basedon": ["Pixel Gun 3D"]
+    }
+}

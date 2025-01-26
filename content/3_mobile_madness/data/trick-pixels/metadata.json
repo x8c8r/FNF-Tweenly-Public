@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "Trick Pixels",
+        "expandBeat" : 0,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["BeastTornado"],
+        "coding": ["x8c8r"],
+        "art" : ["PananaBread"],
+        "chart": ["PananaBread"],
+		"basedon": ["Trap Adventure 2"]
+    }
+}

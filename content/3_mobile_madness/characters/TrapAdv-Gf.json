@@ -1,0 +1,53 @@
+{
+	"animations": [
+		{
+			"cameraOffset": [
+				30,
+				0
+			],
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"cameraOffset": [
+				30,
+				0
+			],
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TrapAdv-Gf",
+	"position": [
+		60,
+		120
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		160,
+		0,
+		80
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

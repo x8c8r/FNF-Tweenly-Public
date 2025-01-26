@@ -1,0 +1,14 @@
+{
+    "card" : {
+        "name" : "Ticker",
+        "expandBeat" : 0,
+		"duration": 3
+    },
+    "credits" : {
+        "music" : ["Jo560hs"],
+        "coding": ["PoeDev"],
+        "art" : ["Didgie", "PoeDev"],
+        "chart": ["PananaBread"],
+		"basedon": ["Clock"]
+    }
+}
